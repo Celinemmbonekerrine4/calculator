@@ -19,4 +19,9 @@ var divide=function(weight,height){
   var celcius = parseInt(prompt("Celcius"));
   alert(multiply(fahrenheit,celcius));
 
-  
+  var num=3;
+if ( num%2 == 0) {
+	alert(prompt('Even number'));
+}else{
+	alert(prompt('Odd number'));
+}
